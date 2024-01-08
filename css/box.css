@@ -1,0 +1,37 @@
+.box_main_title {
+  margin-top: 40%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.trending {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.box_title {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.box_content {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  margin-right: 20px;
+  margin-right: 20px;
+}
+
+.box_content > img {
+  width: 205px;
+  height: 300px;
+  transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.box_content > img:hover {
+  opacity: 0.7;
+  transform: scale(1.2);
+}
